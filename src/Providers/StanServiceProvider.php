@@ -26,14 +26,14 @@ class StanServiceProvider extends ServiceProvider
     public function registerPublishers(): void
     {
         $this->publishes([
-            __DIR__.'/../stubs/.php_cs'      => base_path('.php_cs'),
-            __DIR__.'/../stubs/phpstan.neon' => base_path('phpstan.neon'),
-            __DIR__.'/../stubs/psalm.xml'    => base_path('psalm.xml'),
-            __DIR__.'/../stubs/phpunit.xml'  => base_path('phpunit.xml'),
+            base_path('vendor/konceiver/stan/stubs/.php_cs')      => base_path('.php_cs'),
+            base_path('vendor/konceiver/stan/stubs/phpstan.neon') => base_path('phpstan.neon'),
+            base_path('vendor/konceiver/stan/stubs/psalm.xml')    => base_path('psalm.xml'),
+            base_path('vendor/konceiver/stan/stubs/phpunit.xml')  => base_path('phpunit.xml'),
         ], 'config');
 
         $this->publishes([
-            __DIR__.'/../stubs/.github' => base_path('.github'),
+            base_path('vendor/konceiver/stan/stubs/.github') => base_path('.github'),
         ], 'workflows');
     }
 }

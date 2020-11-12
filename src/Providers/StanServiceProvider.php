@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Konceiver\Stan;
+namespace Konceiver\Stan\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

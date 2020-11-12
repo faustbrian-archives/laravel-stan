@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ARKEcosystem\Stan;
+namespace Konceiver\Stan;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "php": "^7.4",
+        "php": "^7.4|^8.0",
         "jasonmccreary/laravel-test-assertions": "^1.0",
         "konceiver/stan": "^1.0",
         "nunomaduro/collision": "^5.1",

@@ -18,11 +18,11 @@
     "require": {
         "php": "^7.4|^8.0",
         "jasonmccreary/laravel-test-assertions": "^1.0",
-        "konceiver/stan": "^1.0",
+        "konceiver/stan": "^1.4",
         "nunomaduro/collision": "^5.1",
         "nunomaduro/larastan": "^0.6.9",
         "nunomaduro/laravel-mojito": "^0.2",
-        "pestphp/pest-plugin-laravel": "^0.3",
+        "pestphp/pest-plugin-laravel": "^1.0",
         "psalm/plugin-laravel": "^1.4",
         "wnx/laravel-stats": "^2.4"
     },

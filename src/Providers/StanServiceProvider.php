@@ -15,16 +15,6 @@ class StanServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->registerPublishers();
-    }
-
-    /**
-     * Register the publishers.
-     *
-     * @return void
-     */
-    public function registerPublishers(): void
-    {
         $this->publishes([
             base_path('vendor/konceiver/stan/stubs/.php_cs')      => base_path('.php_cs'),
             base_path('vendor/konceiver/stan/stubs/phpstan.neon') => base_path('phpstan.neon'),
